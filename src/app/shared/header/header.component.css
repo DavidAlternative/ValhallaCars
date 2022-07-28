@@ -1,0 +1,46 @@
+.header {
+  background-color: #181818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.button {
+  padding: 7px 20px;
+  font-size: 1.6rem;
+  background: #2d2d2d;
+  border: none;
+  margin: 0 5px;
+  font-family: inherit;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.log-in {
+  color: #fff;
+}
+
+.sign-up{
+  color: #dcb234;
+}
+
+.log-in:hover {
+  background-color: #242424;
+}
+
+.sign-up:hover {
+  background-color: #242424;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #dcb234;
+  cursor: pointer;
+}
+
