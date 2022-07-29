@@ -47,7 +47,8 @@
   font-weight: 700;
   color: #dcb234;
   cursor: pointer;
-  margin-right: 50px;
+  margin-right: 40px;
+  letter-spacing: 2px;
 }
 
 .nav-item {

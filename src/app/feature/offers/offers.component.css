@@ -1,0 +1,82 @@
+.container-text {
+  background-color: #181818;
+  width: 100vw;
+}
+
+.container-text h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.container-background {
+  background-color: #181818;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #000000;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+}
+
+.offers {
+  background-color: #ffffff;
+  width: 93%;
+  height: 75vh;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container-vehicles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-image {
+  width: 15vw;
+  object-fit: cover;
+}
+
+.item-model {
+  color: #000000;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.item-price {
+  color: #000000;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.now-text {
+  color: #000000;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.item-offer {
+  color: #000000;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.vehicles {
+  cursor: pointer;
+}

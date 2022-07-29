@@ -1,4 +1,23 @@
 .welcome {
   width: 100vw;
-  height: 100vh;
+}
+
+.join-valhalla {
+  width: 100vw;
+  padding: 30px 50px;
+}
+
+.first {
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+.second {
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+
+.third {
+  color: #dcb234;
+  font-size: 2.4rem;
 }
