@@ -8,4 +8,6 @@
 html {
   font-family: "Rajdhani", sans-serif;
   font-size: 62.5%;
+  background-color: #000000;
+  overflow-x: hidden;
 }
