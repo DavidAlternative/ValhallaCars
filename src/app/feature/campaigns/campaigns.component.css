@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: #181818;
+  padding: 40px 0;
+}
+
+h2 {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+p{
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.card {
+  width: 90%;
+  height: 484px;
+  background-image: url('https://www.jeep.com.co/wp-content/uploads/sites/2/2020/08/rubicon_portada.jpg');
+  background-size: cover;
+  background-position: 65%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.black {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 375px;
+  height: 380px;
+  padding: 30px;
+}
+
+.black-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.black-p {
+  color: #dcb234;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.black-a {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link {
+  display: flex;
+  cursor: pointer;
+}
+
+span{
+  width: 13px;
+  height: 13px;
+  background-image: url('../../../assets/icons/right-arrow.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: invert(65%) sepia(80%) saturate(389%) hue-rotate(5deg) brightness(95%) contrast(90%);
+  margin-left: 5px;
+  margin-top: 5px;
+}
