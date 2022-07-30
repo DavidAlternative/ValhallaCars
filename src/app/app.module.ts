@@ -9,6 +9,7 @@ import { WelcomeComponent } from './feature/welcome/welcome.component';
 import { OffersComponent } from './feature/offers/offers.component';
 import { BrandsComponent } from './feature/brands/brands.component';
 import { CampaignsComponent } from './feature/campaigns/campaigns.component';
+import { DealershipComponent } from './feature/dealership/dealership.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { CampaignsComponent } from './feature/campaigns/campaigns.component';
     OffersComponent,
     BrandsComponent,
     CampaignsComponent,
+    DealershipComponent,
   ],
   imports: [
     BrowserModule,
