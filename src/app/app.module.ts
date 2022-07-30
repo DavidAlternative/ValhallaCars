@@ -10,6 +10,7 @@ import { OffersComponent } from './feature/offers/offers.component';
 import { BrandsComponent } from './feature/brands/brands.component';
 import { CampaignsComponent } from './feature/campaigns/campaigns.component';
 import { DealershipComponent } from './feature/dealership/dealership.component';
+import { ShoppingToolsComponent } from './feature/shopping-tools/shopping-tools.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { DealershipComponent } from './feature/dealership/dealership.component';
     BrandsComponent,
     CampaignsComponent,
     DealershipComponent,
+    ShoppingToolsComponent,
   ],
   imports: [
     BrowserModule,

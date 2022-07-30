@@ -1,0 +1,13 @@
+<div class="background">
+  <h2 class="vehicles-text">VALHALLA EXPERIENCE</h2>
+  <div class="card-container">
+    <div class="card" *ngFor="let card of cards">
+      <div class="img-card-container">
+        <img class="img-card" [src]="card.image" alt="">
+      </div>
+      <h3 class="title-card">{{ card.title }}</h3>
+      <p class="text-card">{{ card.description }}</p>
+      <button class="button-card">{{ card.buttonTitle }}</button>
+    </div>
+  </div>
+</div>
