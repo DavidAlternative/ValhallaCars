@@ -63,6 +63,7 @@
   overflow: hidden;
   max-width: 400px;
   z-index: 1;
+  cursor: pointer;
 }
 
 .img-card-container::after {

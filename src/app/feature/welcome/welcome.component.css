@@ -35,6 +35,7 @@
   cursor: pointer;
   margin-right: 80px;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 a {
@@ -50,4 +51,10 @@ span {
   background-repeat: no-repeat;
   filter: invert(65%) sepia(80%) saturate(389%) hue-rotate(5deg) brightness(95%) contrast(90%);
   margin-left: 50px;
+}
+
+.urus-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s;
 }

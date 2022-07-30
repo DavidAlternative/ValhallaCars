@@ -64,6 +64,7 @@ p{
 .link {
   display: flex;
   cursor: pointer;
+  width: 70%;
 }
 
 span{
@@ -75,4 +76,15 @@ span{
   filter: invert(65%) sepia(80%) saturate(389%) hue-rotate(5deg) brightness(95%) contrast(90%);
   margin-left: 5px;
   margin-top: 5px;
+  transition: 0.3s;
+}
+
+.link:hover {
+  border-bottom: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.link:hover span {
+  transition: 0.3s;
+  transform: translateX(15px);
 }
