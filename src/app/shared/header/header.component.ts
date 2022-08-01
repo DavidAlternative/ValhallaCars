@@ -10,6 +10,12 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+  toggleMenu() {
+    let menu = document.getElementById('context-menu') as HTMLElement;
+    menu.classList.toggle('context-menu-active');
+    menu.classList.toggle('context-menu');
   }
 
 }

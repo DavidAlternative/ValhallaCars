@@ -1,6 +1,26 @@
 <header class="header">
   <div class="leftside">
     <h1 class="title">VALHALLA</h1>
+  <div class="hamburguer-menu" (click)="toggleMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <nav class="context-menu" id="context-menu" >
+    <ul class="main-menu">
+      <div class="close" id="close" (click)="toggleMenu()">
+      </div>
+      <div class="item-container">
+        <a class="nav-item" href=""><li>VEHICLES</li></a>
+        <a class="nav-item" href=""><li>NEW MODELS</li></a>
+        <a class="nav-item" href=""><li>URUS</li></a>
+        <a class="nav-item" href=""><li>BRANDS</li></a>
+        <a class="nav-item" href=""><li>OWNERS</li></a>
+        <a class="info-item" href=""><li>DEALERSHIPS</li></a>
+        <a class="info-item" href=""><li>ACCOUNT</li></a>
+      </div>
+    </ul>
+  </nav>
   <nav class="nav-bar">
     <ul>
       <a class="nav-item" href=""><li>VEHICLES</li></a>
