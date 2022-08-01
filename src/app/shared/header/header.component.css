@@ -13,6 +13,12 @@
   width: 100vw;
 }
 
+.hamburguer-menu {
+  display: none;
+}
+.context-menu {
+  display: none;
+}
 .leftside {
   display: flex;
   align-items: center;
