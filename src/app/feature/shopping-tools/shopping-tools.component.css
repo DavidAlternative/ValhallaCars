@@ -81,3 +81,14 @@ img {transition: .5s ease all; width: 100%; object-fit:cover;}
 .img-card-container:hover img {
   transform: scale(1.1);
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .img-card-container {
+    min-width: 320px;
+    max-width: 480px;
+  }
+}

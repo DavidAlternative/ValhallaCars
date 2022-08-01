@@ -30,10 +30,10 @@
 .offers {
   background-color: #ffffff;
   width: 93%;
-  height: 75vh;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
 
 }
 
@@ -79,4 +79,29 @@
 
 .vehicles {
   cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .container-vehicles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .offers {
+    width: 100%;
+  }
+
+  .item-image {
+    width: 39vw;
+    margin-top: 20px;
+  }
+
+  .vehicles {
+    margin: 0 20px;
+  }
+
+  .container-text h2 {
+    padding: 50px 15px;
+    text-align: center;
+  }
 }

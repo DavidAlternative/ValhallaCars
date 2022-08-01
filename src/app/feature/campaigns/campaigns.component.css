@@ -23,14 +23,13 @@ p{
 
 .card {
   width: 90%;
-  height: 484px;
   background-image: url('https://www.jeep.com.co/wp-content/uploads/sites/2/2020/08/rubicon_portada.jpg');
   background-size: cover;
   background-position: 65%;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  padding-left: 50px;
+  padding: 50px;
 }
 
 .black {
@@ -87,4 +86,37 @@ span{
 .link:hover span {
   transition: 0.3s;
   transform: translateX(15px);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .card {
+    width: 100%;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  p {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .link {
+    width: 100%;
+    justify-content: center;
+  }
+
+  span {
+    margin-left: 10px;
+  }
+
+  .container {
+    padding: 0;
+  }
 }
