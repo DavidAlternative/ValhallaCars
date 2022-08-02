@@ -120,3 +120,36 @@ span{
     padding: 0;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1150px) {
+  .card {
+    width: 100%;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  p {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .link {
+    width: 100%;
+    justify-content: center;
+  }
+
+  span {
+    margin-left: 10px;
+  }
+
+  .container {
+    padding: 0;
+  }
+}
