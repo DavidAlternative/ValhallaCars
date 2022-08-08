@@ -25,7 +25,7 @@
     <ul>
       <a class="nav-item" href=""><li>VEHICLES</li></a>
       <a class="nav-item" href=""><li>NEW MODELS</li></a>
-      <a class="nav-item" href=""><li>URUS</li></a>
+      <a class="nav-item" [routerLink]="['urus']" [routerLinkActive]="'active'"><li>URUS</li></a>
       <a class="nav-item" href=""><li>BRANDS</li></a>
       <a class="nav-item" href=""><li>OWNERS</li></a>
     </ul>
@@ -38,3 +38,5 @@
     </ul>
   </div>
 </header>
+
+<router-outlet></router-outlet>
