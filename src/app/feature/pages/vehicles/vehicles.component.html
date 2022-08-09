@@ -1,0 +1,19 @@
+<div class="container-background">
+  <div class="offers">
+    <div class="title">
+      <h3>VEHICLES</h3>
+    </div>
+    <div class="container-vehicles">
+      <div
+        class="vehicles"
+        *ngFor="let vehicle of vehiclesOffers; let pos = index"
+      >
+        <img class="item-image" [src]="vehicle.image" alt="" />
+        <h4 class="item-model">{{ vehicle.model }}</h4>
+        <p class="now-text">From</p>
+        <p class="item-offer">COP {{ formatPrice(vehicle.offer) }} </p>
+        <button>More info</button>
+      </div>
+    </div>
+  </div>
+</div>

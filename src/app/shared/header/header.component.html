@@ -11,32 +11,31 @@
       <div class="close" id="close" (click)="toggleMenu()">
       </div>
       <div class="item-container">
-        <a class="nav-item" href=""><li>VEHICLES</li></a>
-        <a class="nav-item" href=""><li>NEW MODELS</li></a>
-        <a class="nav-item" href=""><li>URUS</li></a>
-        <a class="nav-item" href=""><li>BRANDS</li></a>
-        <a class="nav-item" href=""><li>OWNERS</li></a>
+        <a class="nav-item" [routerLink]="['Vehicles']" [routerLinkActive]="'active'"><li>VEHICLES</li></a>
+        <a class="nav-item" [routerLink]="['New']" [routerLinkActive]="'active'"><li>NEW MODELS</li></a>
+        <a class="nav-item" [routerLink]="['Urus']" [routerLinkActive]="'active'"><li>URUS</li></a>
+        <a class="nav-item" [routerLink]="['Brands']" [routerLinkActive]="'active'"><li>BRANDS</li></a>
+        <a class="nav-item" [routerLink]="['Owners']" [routerLinkActive]="'active'"><li>OWNERS</li></a>
         <a class="info-item" href=""><li>DEALERSHIPS</li></a>
-        <a class="info-item" href=""><li>ACCOUNT</li></a>
+        <a class="info-item" [routerLink]="['Register']" [routerLinkActive]="'active'"><li>ACCOUNT</li></a>
       </div>
     </ul>
   </nav>
   <nav class="nav-bar">
     <ul>
-      <a class="nav-item" href=""><li>VEHICLES</li></a>
-      <a class="nav-item" href=""><li>NEW MODELS</li></a>
-      <a class="nav-item" [routerLink]="['urus']" [routerLinkActive]="'active'"><li>URUS</li></a>
-      <a class="nav-item" href=""><li>BRANDS</li></a>
-      <a class="nav-item" href=""><li>OWNERS</li></a>
+      <a class="nav-item" [routerLink]="['Vehicles']" [routerLinkActive]="'active'"><li>VEHICLES</li></a>
+      <a class="nav-item" [routerLink]="['New']" [routerLinkActive]="'active'"><li>NEW MODELS</li></a>
+      <a class="nav-item" [routerLink]="['Urus']" [routerLinkActive]="'active'"><li>URUS</li></a>
+      <a class="nav-item" [routerLink]="['Brands']" [routerLinkActive]="'active'"><li>BRANDS</li></a>
+      <a class="nav-item" [routerLink]="['Owners']" [routerLinkActive]="'active'"><li>OWNERS</li></a>
     </ul>
   </nav>
   </div>
   <div class="info">
     <ul>
       <a class="info-item" href=""><li>Dealerships</li></a>
-      <a class="info-item" href=""><li>Account</li></a>
+      <a class="info-item" [routerLink]="['Register']" [routerLinkActive]="'active'"><li>Account</li></a>
     </ul>
   </div>
 </header>
 
-<router-outlet></router-outlet>

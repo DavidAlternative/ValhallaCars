@@ -1,0 +1,37 @@
+.container {
+  width: 100vw;
+}
+
+.part-one {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+}
+
+.image img {
+  width: 100%;
+}
+
+.nav{
+  width: 15%;
+  background-color: #f5f5f5;
+}
+
+.nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: #dcb234;
+  padding: 50px 0;
+}
+.nav ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 50px 0;
+}
